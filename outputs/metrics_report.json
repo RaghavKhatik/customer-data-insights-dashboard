@@ -1,0 +1,44 @@
+{
+  "inconsistencies": [
+    {
+      "Problem type": "Missing values",
+      "Before": 2030,
+      "After": 0
+    },
+    {
+      "Problem type": "Duplicate rows",
+      "Before": 50,
+      "After": 0
+    },
+    {
+      "Problem type": "Outliers (IQR)",
+      "Before": 868,
+      "After": 758
+    },
+    {
+      "Problem type": "Invalid values",
+      "Before": 136,
+      "After": 36
+    },
+    {
+      "Problem type": "Inconsistent text",
+      "Before": 7,
+      "After": 0
+    },
+    {
+      "Problem type": "Mixed date formats",
+      "Before": 1056,
+      "After": 0
+    }
+  ],
+  "reduction_pct": 80.9,
+  "benchmark": {
+    "median_seconds": 3.263,
+    "records_per_second": 3233,
+    "module_lines": 75,
+    "n_datasets": 3,
+    "one_off_lines": 225,
+    "reusable_lines": 78,
+    "effort_reduction_pct": 65.3
+  }
+}
